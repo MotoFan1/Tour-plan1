@@ -1319,8 +1319,8 @@ template {
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opa;
-  transition: opa;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .modal__overlay--visible {
@@ -1342,8 +1342,8 @@ template {
   z-index: 101;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opa;
-  transition: opa;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .modal__dialog--visible {
@@ -1362,7 +1362,7 @@ template {
 .modal__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 38px;
   line-height: 23px;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1371,13 +1371,17 @@ template {
 
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal__message {
   width: 100%;
   min-height: 123px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.modal__button {
+  margin-top: 15px;
 }
 
 .modal__info {
